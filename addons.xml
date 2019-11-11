@@ -43,23 +43,19 @@ provider-name="encode">
         </news>
     </extension>
 </addon>
-<addon id="plugin.video.nathosubsvod"
-       name="Natho VOD"
-       version="2.4"
-       provider-name="Team Natho">
+<addon id="plugin.video.nathosubsvod" name="NS VOD" version="2.5" provider-name="Natho">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
-	<import addon="script.module.metahandler"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Natho VOD</summary>
+    <summary lang="en">NS VOD Addon</summary>
     <language>en</language>
-    <description lang="en">Natho VOD - Supplier of Great Quality and Stable VOD Content</description>
+    <description lang="en">NS Video On Demand</description>
      <platform>all</platform>
   </extension>
 </addon>
