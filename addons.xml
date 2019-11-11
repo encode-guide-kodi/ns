@@ -1,6 +1,6 @@
 <addons>
 <addon id="script.tvguide.ns" name="NS Guide"
-version="0.1.0"
+version="0.1.1"
 provider-name="encode">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
@@ -131,7 +131,7 @@ provider-name="encode">
 </addon>
 <addon id="plugin.video.jiffytv"
        name="Jiffy TV"
-       version="1.2"
+       version="1.3"
        provider-name="Jiffy TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
