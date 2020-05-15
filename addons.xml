@@ -14,7 +14,7 @@
   </extension>
 </addon>
 <addon id="script.tvguide.ns" name="NS Guide"
-version="0.1.2"
+version="0.1.3"
 provider-name="encode">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
