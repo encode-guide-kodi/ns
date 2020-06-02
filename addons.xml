@@ -181,7 +181,7 @@ provider-name="encode">
 </addon>
 <addon id="plugin.video.nathogold"
        name="NS Gold Sub"
-       version="1.0"
+       version="1.1"
        provider-name="Team Natho">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
