@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.nsanova" name="[B][COLOR blue]NS ANOVA[/COLOR][/B]" version="1.0" provider-name="ENCODE">
+    <requires>
+        <import addon="script.module.requests" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.m3u8" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">NS ANOVA Kodi Addon</summary>
+        <language>en</language>
+        <description lang="en"></description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
