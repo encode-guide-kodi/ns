@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="script.tvguide.otb" name="OTB EPG" version="2.3.1" provider-name="ENCODE">
+ <requires><import addon="xbmc.python" version="3.0.1" /></requires>
+ <extension point="xbmc.python.script" library="addon.py"><provides>executable</provides></extension>
+ <extension point="xbmc.addon.metadata"><summary lang="en_GB">OTB EPG</summary><description lang="en_GB">Timeline guide with visible navigation, XMLTV import, channel groups, search and live playback.</description><platform>all</platform><license>GPL-2.0-or-later</license><assets><icon>icon.png</icon><fanart>fanart.jpg</fanart></assets></extension>
+</addon>
